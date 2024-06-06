@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  AZURE_SUBSCRIPTION: 'Free_Trail'
+  AZURE_SUBSCRIPTION: 'madhutest'
   RESOURCE_GROUP: 'Madhu_testing'
   CONTAINER_APP: 'containertest'
   CONTAINER_IMAGE: 'simple-hello-world-container'
