@@ -22,7 +22,7 @@ stages:
     steps:
     - checkout: self
     
-    - task: AzureCLI@2
+    - task: AzureCLI@1
       inputs:
         azureSubscription: $(AZURE_SUBSCRIPTION)
         scriptType: bash
