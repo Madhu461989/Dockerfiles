@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
+pool: myselfhosted
+  
 
 variables:
   AZURE_SUBSCRIPTION: 'madhutest'
